@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\src -I.\inc -IE:\NIBP_Copy 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F103xB -o "stm32f1xx_hal_msp.o" --omf_browse "stm32f1xx_hal_msp.crf" --depend "stm32f1xx_hal_msp.d" "src\stm32f1xx_hal_msp.c"

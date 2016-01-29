@@ -1,0 +1,41 @@
+*** Creating Trace Output File 'NIBP.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_stm32f10x_md.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f1xx_it.o"'
+### List of Objects: adding '"system_stm32f1xx.o"'
+### List of Objects: adding '"stm32f1xx_hal_msp.o"'
+### List of Objects: adding '"adcread.o"'
+### List of Objects: adding '"stm32f1xx_hal.o"'
+### List of Objects: adding '"stm32f1xx_hal_adc.o"'
+### List of Objects: adding '"stm32f1xx_hal_adc_ex.o"'
+### List of Objects: adding '"stm32f1xx_hal_cortex.o"'
+### List of Objects: adding '"stm32f1xx_hal_dac.o"'
+### List of Objects: adding '"stm32f1xx_hal_dac_ex.o"'
+### List of Objects: adding '"stm32f1xx_hal_dma.o"'
+### List of Objects: adding '"stm32f1xx_hal_gpio.o"'
+### List of Objects: adding '"stm32f1xx_hal_msp.o"'
+### List of Objects: adding '"stm32f1xx_hal_rcc.o"'
+### List of Objects: adding '"stm32f1xx_hal_rcc_ex.o"'
+### List of Objects: adding '"stm32f1xx_hal_tim.o"'
+### List of Objects: adding '"stm32f1xx_hal_tim_ex.o"'
+### List of Objects: adding '"stm32f1xx_nucleo.o"'
+### List of Objects: adding '"stm32f1xx_hal_uart.o"'
+### List of Objects: adding '"stm32f1xx_hal_pwr.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_stm32f10x_md.o" "main.o" "stm32f1xx_it.o" "system_stm32f1xx.o" "stm32f1xx_hal_msp.o" "adcread.o" "stm32f1xx_hal.o" "stm32f1xx_hal_adc.o" "stm32f1xx_hal_adc_ex.o" "stm32f1xx_hal_cortex.o" "stm32f1xx_hal_dac.o" "stm32f1xx_hal_dac_ex.o" "stm32f1xx_hal_dma.o" "stm32f1xx_hal_gpio.o" "stm32f1xx_hal_msp.o" "stm32f1xx_hal_rcc.o" "stm32f1xx_hal_rcc_ex.o" "stm32f1xx_hal_tim.o" "stm32f1xx_hal_tim_ex.o" "stm32f1xx_nucleo.o" "stm32f1xx_hal_uart.o" "stm32f1xx_hal_pwr.o" 
+--strict --scatter "NIBP.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\NIBP.map" -o NIBP.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'NIBP.axf'
+### ADS-LD Command File: 'NIBP.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'NIBP.lnp', Handle=0x000002D8
+### Writing '.lnp' file
+### ADS-LD Command file 'NIBP.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

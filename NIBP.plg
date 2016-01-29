@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\NIBP_Copy\NIBP.uvproj
+Project File Date:  12/08/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+src\main.c(65): warning:  #83-D: type qualifier specified more than once
+src\main.c(66): warning:  #83-D: type qualifier specified more than once
+src\main.c(228): warning:  #223-D: function "memset" declared implicitly
+src\main.c(1032): warning:  #223-D: function "memset" declared implicitly
+src\main.c(90): warning:  #177-D: function "Buffercmp" was declared but never referenced
+compiling stm32f1xx_hal_msp.c...
+linking...
+NIBP.axf: Warning: L6304W: Duplicate input file stm32f1xx_hal_msp.o ignored.
+Program Size: Code=24124 RO-data=292 RW-data=104 ZI-data=3288  
+"NIBP.axf" - 0 Error(s), 6 Warning(s).
